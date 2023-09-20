@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Games by our Pupils</title> <!-- Title placed within the head section -->
+    <title>Games by Our Pupils</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,21 +17,37 @@
         h1 {
             color: #333;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-size: 36px;
+            font-weight: bold;
+            margin: 20px 0;
         }
 
-        video {
-            width: 100%;
-            max-width: 1200px;
-            display: block;
-            margin: 0 auto;
+        .game-container {
+            width: 80%;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            background-color: #fff;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: left;
         }
 
         h2 {
-            margin-top: 20px;
             font-size: 28px;
             color: #777;
             font-weight: bold;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #444;
+        }
+
+        h4 {
+            font-size: 16px;
+            font-style: italic;
+            color: #888;
+            margin-bottom: 20px;
         }
 
         a {
@@ -43,49 +59,98 @@
         a:hover {
             text-decoration: underline;
         }
-.pppgtext {
-    inline-size: auto;
-    display: inline-block;
-    font-size: 30;
-}
 
+        .pppgtext {
+            display: inline-block;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .tick {
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+
+        i {
+            font-weight: normal;
+        }
+
+        .instruction-title {
+            font-weight: bold;
+            color: #888;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Here are some projects by our pupils!</h1>
-    <div class="pppgtext">
-    <h2>
-        2 Player Ping Pong Game
-        <img src="https://stcstatic1.joshuang.site/assets/index/tick-badge.png" alt="Tick" class="tick" width="30" height="30">
-    </h2>
-</div>    
-    <h3>Created by Josiah Onojobi Year 7 (2022-2023)</h3>
-    <iframe src=https://scratch.mit.edu/projects/856050965/embed/ allowtransparency="true" width="730" height="701" frameborder="0" scrolling="no" allowfullscreen></iframe>
-    <h3>If the embed doesn't show up please visit: <a href="https://scratch.mit.edu/projects/856050965/fullscreen" target="_blank">Click Here!</a></h2>
-    <div class="pppgtext">
-      <h2><br><br><br>Flappy Bird<img src="https://stcstatic1.joshuang.site/assets/index/tick-badge.png" alt="Tick" class="tick" width="30" height="30"></h2>
-      </div>
-    <h3>Created by Josiah Onojobi Year 7 (2022-2023)</h3>
-    <iframe src=https://scratch.mit.edu/projects/841376909/embed allowtransparency="true" width="730" height="701" frameborder="0" scrolling="no" allowfullscreen></iframe>
-    <h3>If the embed doesn't show up please visit: <a href="https://scratch.mit.edu/projects/841376909/fullscreen" target="_blank">Click Here!</a></h2>
-    <h2><br><br><br>AI Chatbot</h2>
-    <h3>Created by Josiah Onojobi Year 7 (2022-2023)</h3>
-    <iframe src=https://scratch.mit.edu/projects/858023470/embed allowtransparency="true" width="730" height="701" frameborder="0" scrolling="no" allowfullscreen></iframe>
-    <h3>If the embed doesn't show up please visit: <a href="https://scratch.mit.edu/projects/858023470/fullscreen" target="_blank">Click Here!</a></h2>
-    <div class="pppgtext">
-      <h2><br><br><br>Drawing Animation (5A)<img src="https://stcstatic1.joshuang.site/assets/index/tick-badge.png" alt="Tick" class="tick" width="30" height="30"></h2>
-      </div>
-    <h3>Created by Joshua Ng 8G</h3>
-    <iframe src=https://scratch.mit.edu/projects/680638108/embed allowtransparency="true" width="730" height="701" frameborder="0" scrolling="no" allowfullscreen></iframe>
-    <h3>If the embed doesn't show up please visit: <a href="https://scratch.mit.edu/projects/680638108/fullscreen" target="_blank">Click Here!</a></h2>
-    <div class="pppgtext">
-      <h2><br><br><br>Just another maze<img src="https://stcstatic1.joshuang.site/assets/index/tick-badge.png" alt="Tick" class="tick" width="30" height="30"></h2>
-      </div>
-    <h3>Created by Joshua Ng 8G</h3>
-    <iframe src=https://scratch.mit.edu/projects/552474722/embed allowtransparency="true" width="730" height="701" frameborder="0" scrolling="no" allowfullscreen></iframe>
-    <h3>If the embed doesn't show up please visit: <a href="https://scratch.mit.edu/projects/552474722/fullscreen" target="_blank">Click Here!</a></h2>
-    
+    <h1>Welcome to Games by Our Pupils</h1>
+
+    <div class="game-container">
+        <h2 class="pppgtext">2 Player Ping Pong Game <img
+                src="https://stcstatic1.joshuang.site/assets/index/tick-badge.png" alt="Tick" class="tick" width="30"
+                height="30"></h2>
+        <h3>Created by Josiah Onojobi Year 7 (2022-2023)</h3>
+        <h4 class="instruction-title"><i>Instructions:</i></h4>
+        <p><i>Player 1 (W, S) keys</i></p>
+        <p><i>Player 2 (Up, Down Arrow) keys</i></p>
+        <iframe src="https://scratch.mit.edu/projects/856050965/embed/" allowtransparency="true" width="100%"
+            height="500" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <p>If the embed doesn't show up, please visit: <a href="https://scratch.mit.edu/projects/856050965/fullscreen"
+                target="_blank">Click Here!</a></p>
+    </div>
+
+    <div class="game-container">
+        <h2 class="pppgtext">Flappy Bird <img src="https://stcstatic1.joshuang.site/assets/index/tick-badge.png"
+                alt="Tick" class="tick" width="30" height="30"></h2>
+        <h3>Created by Josiah Onojobi Year 7 (2022-2023)</h3>
+        <h4 class="instruction-title"><i>Instructions:</i></h4>
+        <p><i>Use the arrow keys to control the bird.</i></p>
+        <p><i>Good luck!</i></p>
+        <iframe src="https://scratch.mit.edu/projects/841376909/embed" allowtransparency="true" width="100%"
+            height="500" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <p>If the embed doesn't show up, please visit: <a href="https://scratch.mit.edu/projects/841376909/fullscreen"
+                target="_blank">Click Here!</a></p>
+    </div>
+
+    <div class="game-container">
+        <h2 class="pppgtext">AI Chatbot</h2>
+        <h3>Created by Josiah Onojobi Year 7 (2022-2023)</h3>
+        <h4 class="instruction-title"><i>Instructions:</i></h4>
+        <p><i>The bot's purpose is to answer your questions.</i></p>
+        <p><i>Have a chat with it!</i></p>
+        <iframe src="https://scratch.mit.edu/projects/858023470/embed" allowtransparency="true" width="100%"
+            height="500" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <p>If the embed doesn't show up, please visit: <a href="https://scratch.mit.edu/projects/858023470/fullscreen"
+                target="_blank">Click Here!</a></p>
+    </div>
+
+    <div class="game-container">
+        <h2 class="pppgtext">Drawing Animation (5A) <img
+                src="https://stcstatic1.joshuang.site/assets/index/tick-badge.png" alt="Tick" class="tick" width="30"
+                height="30"></h2>
+        <h3>Created by Joshua Ng 8G</h3>
+        <h4 class="instruction-title"><i>Description:</i></h4>
+        <p><i>Adjust the color slider to change the color.</i></p>
+        <p><i>Just another animation with the scratch pen module!</i></p>
+        <iframe src="https://scratch.mit.edu/projects/680638108/embed" allowtransparency="true" width="100%"
+            height="500" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <p>If the embed doesn't show up, please visit: <a href="https://scratch.mit.edu/projects/680638108/fullscreen"
+                target="_blank">Click Here!</a></p>
+    </div>
+
+    <div class="game-container">
+        <h2 class="pppgtext">Just Another Maze <img src="https://stcstatic1.joshuang.site/assets/index/tick-badge.png"
+                alt="Tick" class="tick" width="30" height="30"></h2>
+        <h3>Created by Joshua Ng 8G</h3>
+        <h4 class="instruction-title"><i>Instructions:</i></h4>
+        <p><i>Use the arrow keys to move the circle.</i></p>
+        <p><i>There are portals that you can use as shortcuts.</i></p>
+        <p><i>There are 2 levels, try and beat the high score!</i></p>
+        <iframe src="https://scratch.mit.edu/projects/552474722/embed" allowtransparency="true" width="100%"
+            height="500" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <p>If the embed doesn't show up, please visit: <a href="https://scratch.mit.edu/projects/552474722/fullscreen"
+                target="_blank">Click Here!</a></p>
+    </div>
 </body>
 
 </html>
