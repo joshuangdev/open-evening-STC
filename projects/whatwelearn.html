@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Year 7 and Year 8 Overview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .timeline {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            position: relative;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /*.timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 2px;
+            height: 100%;
+            background-color: #3498db;
+            transform: translateX(-50%);
+        }*/
+
+        .event {
+            position: relative;
+            padding-left: 40px;
+            margin-bottom: 30px;
+        }
+
+        .event::before {
+            content: '';
+            position: absolute;
+            top: 5px;
+            left: -12px;
+            width: 30px;
+            height: 30px;
+            background-color: #3498db;
+            border-radius: 50%;
+            border: 2px solid #fff;
+        }
+
+        .event h3 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .event p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .event:hover {
+            background-color: #5198c7;
+            color: #fff;
+        }
+
+        .event:hover::before {
+            background-color: #fff;
+            border-color: #3498db;
+        }
+
+        .media-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .media {
+            max-width: 200px;
+            height: auto;
+        }
+
+        .links {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .learning-description {
+            font-weight: bold;  
+            text-decoration: underline; 
+            text-decoration-color: red; 
+            color: black !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="timeline">
+        <h1 style="text-align: center;color: black;text-shadow: 2px 2px 10px #000000;">What do we learn in Computing?</h1>
+        <div class="event">
+            <h3 style="font-weight: 900">Year 7 E-Safety</h3>
+            <p class="learning-description">E-safety, how to protect yourself from scams, phishing.<br>How to keep our information safe online and social media.</p>
+            <div class="media-container">
+                <img class="media" src="https://stcstatic1.joshuang.site/assets/whatwelearn/esafety_STOCKIMAGE.jpeg" alt="Esafety">
+            </div>
+        </div>
+        <div class="event">
+            <h3 style="font-weight: 900">Year 7 Microbit Block Programming</h3>
+            <p class="learning-description">How to do certain stuff when you shake your microbit?<br>Can you play rock-paper-scissors with your Microbit?</p>
+            <div class="media-container">
+                <img class="media" src="https://stcstatic1.joshuang.site/assets/whatwelearn/microbit-programming.png" alt="Microbit">
+                <a class="links" href="https://makecode.microbit.org" target="_blank">Makecode Platform</a>
+            </div>
+        </div>
+        <div class="event">
+            <h3>Year 7 Game Programming</h3>
+            <p class="learning-description">In the last term you will learn how to code games in scratch.<br>You can make games with lives and more!</p>
+            <div class="media-container">
+                <img class="media" src="https://stcstatic1.joshuang.site/assets/whatwelearn/scratchprogramming.jpg" alt="Scratch Programming">
+                <a class="links" href="https://scratch.mit.edu" target="_blank">Scratch Homepage</a>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
